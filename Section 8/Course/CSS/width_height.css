@@ -1,0 +1,29 @@
+div{
+    width: 100px;
+    height: 100px;
+}
+
+.b1{
+    width: auto;
+    height: auto;
+}
+.b2{
+    width: max-content;
+    height: min-content;
+}
+.b3{
+    width: fit-content;
+    height: fit-content;
+}
+.b4{
+    width: 200px;
+    height: 200px;
+}
+.b5{
+    width: 20em;
+    height: 10em;
+}
+.b6{
+    width: 75%;
+    height: 50%;
+}
