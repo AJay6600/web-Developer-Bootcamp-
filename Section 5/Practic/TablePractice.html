@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Practice</title>
+</head>
+<body>
+    <h1>Basic Table Structure : table,tr,th,td.thead,tbody</h1>
+    <table border="1" >
+        <thead>
+            <tr>
+                <th>Player</th>
+                <th>Gloobles</th>
+                <th>Za'taak</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>TR-7</td>
+                <td>7</td>
+                <td>4,569</td>
+            </tr>
+            <tr>
+                <td>Khiresh Odo</td>
+                <td>7</td>
+                <td>7,223</td>
+            </tr>
+            <tr>
+                <td> Khiresh Odo</td>
+                <td>9</td>
+                <td>6,219</td>
+            </tr>
+        </tbody>
+    </table>
+   
+    <h1>Use of scope and caption</h1>
+    <table border="1" >
+        <caption>Alien football stars</caption>
+        <thead>
+            <tr>
+                <th scope="col">Player</th>
+                <th scope="col">Gloobles</th>
+                <th scope="col">Za'taak</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">TR-7</th>
+                <td>7</td>
+                <td>4,569</td>
+            </tr>
+            <tr>
+                <th scope="row">Khiresh Odo</th>
+                <td>7</td>
+                <td>7,223</td>
+            </tr>
+            <tr>
+                <th scope="row"> Khiresh Odo</th>
+                <td>9</td>
+                <td>6,219</td>
+            </tr>
+        </tbody>        
+    </table>
+
+    <h1>Usee of Colgroup</h1>
+    <table border="1" >
+        <caption>Alien football stars</caption>
+        <colgroup>
+            <col/>
+            <col span="2"/>
+            <col/>
+        </colgroup>
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">Player</th>
+                <th scope="col">Gloobles</th>
+                <th scope="col">Za'taak</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Player 1</th>
+                <td>TR-7</td>
+                <td>7</td>
+                <td>4,569</td>
+            </tr>
+            <tr>
+                <th scope="row">Player 2</th>
+                <td>Khiresh Odo</td>
+                <td>7</td>
+                <td>7,223</td>
+            </tr>
+            <tr>
+                <th scope="row">Player 3</th>
+                <td> Khiresh Odo</td>
+                <td>9</td>
+                <td>6,219</td>
+            </tr>
+        </tbody>        
+    </table>
+
+    <h1>Use of the rowspan colspan</h1>  
+
+    <table border="1">
+        <caption>Complicated table</caption>
+        <thead>
+            <tr>
+                <td>Firm</td>
+                <td>Org</td>
+                <td>Lob</td>
+                <td>Sub Lob</td>
+                <td>Business Plans</td>
+                <td>Business Components</td>                     
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="12"> XYZ</td>
+                <td rowspan="5">CST</td>
+                <td rowspan="3">CT</td>
+                <td>ADS</td>
+                <td>1</td>
+                <td>10</td>               
+            </tr>
+            <tr>
+                <td>BTO	</td>
+                <td>2</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>CSI	</td>
+                <td>3</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td rowspan="2">VCT</td>
+                <td>ADS	</td>
+                <td>4</td>
+                <td>10</td>
+            </tr>
+            <tr>                
+                <td>BTO	</td>
+                <td>5</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td colspan="3">Sub Total</td>
+                <td>6</td>
+                <td>15</td>
+                
+            </tr>
+
+            <tr>
+                
+                <td rowspan="5">CST</td>
+                <td rowspan="3">CT</td>
+                <td>ADS</td>
+                <td>1</td>
+                <td>10</td>               
+            </tr>
+            <tr>
+                <td>BTO	</td>
+                <td>2</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>CSI	</td>
+                <td>3</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td rowspan="2">VCT</td>
+                <td>ADS	</td>
+                <td>4</td>
+                <td>10</td>
+            </tr>
+            <tr>                
+                <td>BTO	</td>
+                <td>5</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td colspan="3">Sub Total</td>
+                <td>6</td>
+                <td>15</td>
+                
+            </tr>
+            
+
+        </tbody>
+
+    </table>
+    
+</body>
+</html>
